@@ -1,5 +1,5 @@
 const std = @import("std");
-const coz = @import("coz_wrapper.zig");
+const coz = @import("coz.zig");
 
 fn sleep() void {
     coz.begin("long sleep");
