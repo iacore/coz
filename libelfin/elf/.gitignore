@@ -1,0 +1,5 @@
+*.o
+libelf++.a
+libelf++.so
+libelf++.so.*
+libelf++.pc

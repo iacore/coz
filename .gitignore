@@ -34,8 +34,16 @@ build/
 build-*/
 _deps/
 
-# libelfin is fetched via CMake FetchContent
-libelfin/
+# libelfin is vendored in this fork (patched), so it is tracked.
+# See libelfin/COZ-FORK.md.
+
+# makepkg output
+/coz-*.tar.xz
+/*.pkg.tar.zst
+/src/
+/pkg/
+profile.jsonl
+profile.coz
 
 viewer/node_modules
 rust/Cargo.lock

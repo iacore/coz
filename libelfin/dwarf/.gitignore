@@ -1,0 +1,6 @@
+*.o
+libdwarf++.a
+libdwarf++.so
+libdwarf++.so.*
+libdwarf++.pc
+/doc/

@@ -1,0 +1,16 @@
+pkgbase = coz
+	pkgdesc = A new kind of profiler that measures optimization potential
+	pkgver = 0.2.5
+	pkgrel = 1
+	url = https://github.com/iacore/coz
+	arch = x86_64
+	license = BSD
+	makedepends = cmake
+	makedepends = ninja
+	makedepends = git
+	depends = python
+	depends = zlib
+	source = coz-0.2.5.tar.xz
+	b2sums = 9d43be91d0a6a04b1b58ec97be606cbcb941c99578935f413998bd863c8e4bececcd3a5140fc9b27e89076edfea6bdebbccc33e76c02288a9db3ba3caa9d2a4b
+
+pkgname = coz
